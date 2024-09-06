@@ -7,6 +7,8 @@ body {
     background-image: url("https://cdn.midjourney.com/46fc59e4-c89d-4c1b-84c7-8b540a8bb990/0_2.png");
 }
 
+
+
 main {
     background-color: white;
     width: 400px;
@@ -32,6 +34,7 @@ main {
     padding: 20px 35px;
     font-family: "EB Garamond", serif;
     opacity: 0.99;
+    border-radius: 2%;
 }}
 
 
@@ -63,9 +66,8 @@ li {
    font-size: 0.9rem;
 }
 
-.linkedin {
-    width: 20px;
-    height: 20px;
+#linkedin, #phone {
+    color: rgb(44, 26, 26);
 }
 
 .line {
