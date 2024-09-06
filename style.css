@@ -30,7 +30,7 @@ main {
 
 @media (max-width:640px) {main {
     background-color: white;
-    width: 95%;
+    width: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
