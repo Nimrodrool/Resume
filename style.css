@@ -28,7 +28,7 @@ main {
     opacity: 0.99;
 }
 
-@media (max-width:600px) {main {
+@media (max-width:640px) {main {
     background-color: white;
     width: 300px;
     display: flex;
