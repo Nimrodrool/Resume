@@ -18,6 +18,7 @@ main {
     padding: 30px 50px;
     box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
     font-family: "EB Garamond", serif;
+    opacity: 0.99;
 }
 
 @media (max-width:600px) {main {
@@ -27,11 +28,10 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 5%;
-    margin-top: 2.5%;
-    margin-bottom: 1%;
-    padding: 30px 50px;
+    margin: 0;
+    padding: 20px 35px;
     font-family: "EB Garamond", serif;
+    opacity: 0.99;
 }}
 
 
