@@ -20,6 +20,21 @@ main {
     font-family: "EB Garamond", serif;
 }
 
+@media (max-width:600px) {main {
+    background-color: white;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+    margin-top: 2.5%;
+    margin-bottom: 1%;
+    padding: 30px 50px;
+    font-family: "EB Garamond", serif;
+}}
+
+
 h1 {
     font-family: retroFont;
 }
