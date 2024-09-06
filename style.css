@@ -1,0 +1,63 @@
+@font-face {
+    font-family: retroFont;
+    src: url(ARCADECLASSIC.TTF);
+}
+
+body {
+    background-image: url("https://cdn.midjourney.com/46fc59e4-c89d-4c1b-84c7-8b540a8bb990/0_2.png");
+}
+
+main {
+    background-color: white;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 2.5%;
+    margin-bottom: 1%;
+    padding: 30px 50px;
+    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+    font-family: "EB Garamond", serif;
+}
+
+h1 {
+    font-family: retroFont;
+}
+
+header {
+    text-align: center;
+}
+
+h3 {
+    font-weight: 400;
+}
+
+.info {
+    font-style: italic;
+    padding-top:0;
+    display:flex;
+    justify-content: space-around;
+}
+
+h5 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+li {
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 0.9rem;
+}
+
+.linkedin {
+    width: 20px;
+    height: 20px;
+}
+
+.line {
+    border-top: 1px solid rgb(190, 190, 190);
+}
+
+#alien {
+    width: 10%;
+    height: 10%;
+}
