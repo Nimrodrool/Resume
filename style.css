@@ -3,6 +3,11 @@
     src: url(ARCADECLASSIC.TTF);
 }
 
+@font-face {
+    font-family: proxima;
+    src: url(ProximaNovaT-Thin.ttf);
+}
+
 body {
     background-image: url("https://cdn.midjourney.com/46fc59e4-c89d-4c1b-84c7-8b540a8bb990/0_2.png");
 }
@@ -58,12 +63,13 @@ h3 {
 }
 
 h5 {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: proxima, Courier, monospace;
 }
 
 li {
-   font-family: 'Times New Roman', Times, serif;
-   font-size: 0.9rem;
+   font-family: proxima;
+   color: black;
+   font-size: 0.75rem;
 }
 
 #linkedin, #phone {
